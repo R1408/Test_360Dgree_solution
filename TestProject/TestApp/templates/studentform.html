@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+    <title>Sign Up</title>
+    <link href="/static/admin/css/base.css" rel="stylesheet" type="text/css">
+
+    <link href="/static/admin/css/nav_sidebar.css" rel="stylesheet" type="text/css">
+    <script defer src="/static/admin/js/nav_sidebar.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link href="/static/admin/css/login.css" rel="stylesheet" type="text/css">
+
+
+    <meta content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
+    <link href="/static/admin/css/responsive.css" rel="stylesheet" type="text/css">
+
+
+    <meta content="NONE,NOARCHIVE" name="robots">
+</head>
+
+
+<body class=" login"
+      data-admin-utc-offset="0">
+<script>
+
+<!--$(document).ready(function(){-->
+<!--  $("#submit-btn").click(function(){-->
+<!--    -->
+<!--  });-->
+<!--});-->
+</script>
+<!-- Container -->
+<div id="container">
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+
+            <h1 id="site-name">360Degree Solution</h1>
+
+        </div>
+
+
+    </div>
+    <!-- END Header -->
+
+
+    <div class="main shifted" id="main">
+
+
+        <div class="content">
+
+
+            <!-- Content -->
+            <div class="colM" id="content">
+
+
+                <div id="content-main">
+
+
+                    <form  action = "/student_form/" id="login-form" method="post"><input name="csrfmiddlewaretoken"
+                                                                                       type="hidden"
+                                                                                       value="GgiSvHNSCHKTwfKQJJHRcKLIkuDJj52SLDpOkCuUm2HErYQJPxgBntjgnLYuvZLf">
+                        <div class="form-row">
+
+                            <label class="required" for="id_username">Name:</label> <input autocapitalize="none"
+                                                                                           autocomplete="name" autofocus
+                                                                                           id="uname"
+                                                                                           maxlength="150"
+                                                                                           name="name" required
+                                                                                           type="text">
+                        </div>
+
+                        <div class="form-row">
+
+
+                            <label class="required" for="id_username">Enrollment Number:</label> <input
+                                autocapitalize="none"
+                                autocomplete="username" autofocus
+                                id="enroll"
+                                maxlength="150"
+                                name="enroll" required
+                                type="text">
+                        </div>
+                        <div class="form-row">
+
+
+                            <label class="required" for="id_username">Gender:</label> <input autocapitalize="none"
+                                                                                             autocomplete="username"
+                                                                                             autofocus
+                                                                                             id="gender"
+                                                                                             maxlength="150"
+                                                                                             name="gender" required
+                                                                                             type="text">
+                        </div>
+                        <div class="form-row">
+
+                            <label class="required" for="id_password">Hobbies:</label> <input
+                                autocomplete="current-password"
+                                id="hobbies"
+                                name="hobbies"
+                                required
+                                type="text">
+                            <!--                            <input name="next" type="hidden" value="/admin/">-->
+                        </div>
+                        <div class="form-row">
+
+                            <label class="required" for="id_password">City:</label> <input
+                                autocomplete="current-password"
+                                id="city"
+                                name="city"
+                                required
+                                type="text">
+                            <!--                            <input name="next" type="hidden" value="/admin/">-->
+                        </div>
+                        <div class="form-row">
+
+                            <label class="required" for="id_password">State:</label> <input
+                                autocomplete="current-password"
+                                id="state"
+                                name="state"
+                                required
+                                type="text">
+                            <!--                            <input name="next" type="hidden" value="/admin/">-->
+                        </div>
+                        <div class="form-row">
+
+                            <label class="required" for="id_password">Country:</label> <input
+                                autocomplete="current-password"
+                                id="country"
+                                name="country"
+                                required
+                                type="text">
+                            <!--                            <input name="next" type="hidden" value="/admin/">-->
+                        </div>
+
+                        <div class="submit-row">
+                            <input type="submit" id="submit-btn" value="Submit">
+                        </div>
+
+                    </form>
+
+                </div>
+
+
+                <br class="clear">
+            </div>
+            <!-- END Content -->
+            <div id="footer"></div>
+        </div>
+    </div>
+</div>
+<!-- END Container -->
+</body>
+</html>
